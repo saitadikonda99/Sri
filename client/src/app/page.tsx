@@ -1,10 +1,13 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import Navbar from './components/navbar/Navabar'
 import Footer from './components/footer/Footer'
+import ResNavbar from './components/navbar/ResNavbar'
 
 
 import './globals.css'
+import './MobileView.css'
 
 import logo from './assets/logo.png'
 import Temple from './assets/Temple.png'
@@ -19,6 +22,9 @@ export default function Home() {
           <div className="HomeComponent-in">
             <div className="Home-Nav">
               <Navbar />
+            </div>
+            <div className="Home-Nav-Res">
+              <ResNavbar />
             </div>
             <div className="Home-one">
               <div className="Home-one-in">
@@ -107,7 +113,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="Home-four-three">
-                    <button>Explore More</button>
+                    <button>
+                      <Link href='/gallery'>Explore More</Link>
+                    </button>
                   </div>
               </div>
             </div>

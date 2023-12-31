@@ -10,6 +10,10 @@
     width: 100%;
 }
 
+.Home-Nav-Res {
+    display: none;
+}
+
 .HomeComponent-in {
     height: 100vh;
     width: 100%;
@@ -101,7 +105,7 @@
     width: 80%;
     margin: auto;
     display: flex;
-    padding: 6rem 0rem;
+    padding: 4rem 0rem;
 }
 
 .Home-tw-one {
@@ -109,6 +113,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .Home-tw-one img {
@@ -271,4 +276,9 @@
     color: white;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.Home-four-three a {
+    text-decoration: none;
+    color: white;
 }

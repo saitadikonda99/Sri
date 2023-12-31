@@ -2,12 +2,13 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import './Footer.css'
+import './MobileView.css'
 
 // imports starts here
-
 import { MdCopyright } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
 import Om from '../../assets/Om.png'
+
 
 const Footer = () => {
   return (
@@ -57,10 +58,14 @@ const Footer = () => {
                 </div>
                 <div className="Footer-three">
                     <div className="Footer-three-one">
-                        <MdCopyright />
-                        <p>2024 - Sri Achhamma Perantalu Thalli </p> <span> | </span>
-                        <p>Designed & Developed by</p>
-                        <Link href='/'>Tadikonda Sai Manikanta</Link>
+                        <div className="Fto">
+                            <MdCopyright />
+                            <p>2024 - Sri Achhamma Perantalu Thalli <span> | </span> </p>
+                        </div>
+                        <div className="Ftt">
+                            <p>Designed & Developed by</p>
+                            <Link href='/'>Tadikonda Sai Manikanta</Link>
+                        </div>
                     </div>
                 </div>
             </div>
