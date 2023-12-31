@@ -63,7 +63,7 @@ export default function Home() {
                       <div className="Hero-mt-tpr-in">
                           <div className="hero-pr-one">
                             <Image src={Om2.src} alt="" width={800} height={500}/>
-                            <p>Puja's</p>
+                            <p>Puja&apos;s</p>
                           </div>
                           <div className="hero-pr-two">
                             <PiHandsPrayingFill className='prayer' />
