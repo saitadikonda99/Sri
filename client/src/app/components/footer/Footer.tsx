@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import './Footer.css'
 
 // imports starts here
@@ -26,7 +27,7 @@ const Footer = () => {
                 <div className="Footer-two">
                     <div className="Footer-two-in">
                         <div className="Footer-one-on">
-                            <img src={Om.src} alt="" />
+                            <Image src={Om.src} alt="" width={800} height={500}/>
                             <p>గాలాయగూడెం గ్రామం లో వెలసిన శ్రీ అచ్చమ్మపేరంటాలు తల్లి 67వ వార్షికోత్సవ ఉత్సవాలు ది 15-02-24 నుండి 25-02-24 వరకు జరుగును.</p>
                         </div>
                         <div className="Footer-two-on">

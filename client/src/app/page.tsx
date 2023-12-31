@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 import Navbar from './components/navbar/Navabar'
 import Footer from './components/footer/Footer'
 
@@ -37,7 +39,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="Hero-line">
-                      
+
                     </div>
                   </div>
               </div>
@@ -45,7 +47,7 @@ export default function Home() {
             <div className="Home-two">
               <div className="Home-two-in">
                 <div className="Home-tw-one">
-                  <img src={Temple.src} alt="" />
+                  <Image src={Temple.src} alt="" width={800} height={500}/>
                 </div>
                 <div className="Hero-mt-two">
                     <div className="Hero-mt-th">
@@ -60,7 +62,7 @@ export default function Home() {
                     <div className="Hero-mt-tpr">
                       <div className="Hero-mt-tpr-in">
                           <div className="hero-pr-one">
-                            <img src={Om2.src} alt="" />
+                            <Image src={Om2.src} alt="" width={800} height={500}/>
                             <p>Puja's</p>
                           </div>
                           <div className="hero-pr-two">
@@ -89,17 +91,17 @@ export default function Home() {
                     <div className="Home-ft-in">
                         <div className="Home-ft-one">
                           <div className="hm-ft-on-in">
-                            <img src={Wheel.src} alt="" />
+                            <Image src={Wheel.src} alt="" width={800} height={500}/>
                           </div>
                         </div>
                         <div className="Home-ft-two">
                           <div className="hm-ft-tw-in">
-                            <img src={logo.src} alt="" />
+                          <Image src={logo.src} alt="" width={800} height={500}/>
                           </div>
                         </div>
                         <div className="Home-ft-three">
                           <div className="hm-ft-th-in">
-                            <img src={Temple.src} alt="" />
+                            <Image src={Temple.src} alt="" width={800} height={500}/>
                           </div>
                         </div>
                     </div>
