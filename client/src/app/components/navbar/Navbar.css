@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.NavbarComponent {
+    width: 100%;
+}
+
+.NavbarComponent-in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: rgb(177, 8, 25);
+    color: white;
+}
+
+.Nav-one {
+    width: 50%;
+}
+
+.Nav-one h1 {
+    font-size: 1.2rem;
+}
+
+.Nav-two {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Nav-two a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    color: white;
+}

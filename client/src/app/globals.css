@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.HomeComponent {
+    width: 100%;
+}
+
+.HomeComponent-in {
+    height: 100vh;
+    width: 100%;
+}
+
+.Home-one {
+    width: 100%;
+}
+
+.Home-one-in {
+    width: 100%;
+}
+
+.Hero-head p {
+    font-size: 15px;
+    text-align: center;
+    padding: .5rem;
+}
+
+.Hero-main {
+    width: 100%;
+}
+
+.Hero-main-in {
+    width: 100%;
+    display: flex;
+}
+
+.Hero-mn-one {
+    width: 65%;
+    height: 85vh;
+    background-color: rgb(177, 8, 25);
+    display: flex;
+}
+
+.Hero-mn-one-in {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.Hero-mn-one-in p {
+    color: white;
+    padding: 1rem;
+    width: 90%;
+}
+
+.Hero-mn-one-in h1 {
+    color: white;
+    padding: .5rem;
+    font-size: 2.2rem;
+}
+
+.Hero-mn-two {
+    width: 35%;
+    height: 85vh;
+    background-color: rgb(250, 147, 0);
+}
+
+.Hero-mn-two::after {
+    content: '';
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width: 40%;
+    height: 60vh;
+    background-image: url('./assets/Hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.Hero-line {
+    background-image: url('./assets/Line.png');
+    background-size: contain;
+    width: 100%;
+    height: 2.8vh;
+}
+
+/* ---------------- HOME TWO ---------------- */
+
+
+.Home-two {
+    width: 100%;
+}
+
+.Home-two-in {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 6rem 0rem;
+}
+
+.Home-tw-one {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-tw-one img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Hero-mt-two {
+    width: 60%;
+    padding: 4rem 2rem;
+}
+
+.Hero-mt-th h1 {
+    font-size: 1rem;
+    color: rgb(177, 8, 25);
+}
+
+.Hero-mt-tm {
+    padding: .5rem 0rem;
+    font-size: 1.5rem;
+}
+
+.Hero-mt-tp {
+    padding: 1rem 0rem;
+}
+
+.Hero-mt-tp span{
+    color: rgb(177, 8, 25);
+}
+
+.Hero-mt-tpr {
+    padding: .5rem 0rem;
+    font-size: 1.5rem;
+}
+
+.Hero-mt-tpr-in {
+    border-top: 1px solid black;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+.hero-pr-one {
+    width: 50%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-pr-one img {
+    width: 100px;
+    height: 100px;
+}
+
+.hero-pr-two {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.prayer {
+    font-size: 4rem;
+    color: rgb(177, 8, 25);
+}
+
+/* ---------------- HOME FOUR ---------------- */
+
+.Home-four {
+    width: 100%;
+}
+
+.Home-four-in {
+    padding: 2rem;
+    width: 100%;
+}
+
+.Home-four-one {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.Home-four-one p {
+    color: rgb(250, 147, 0);
+    padding: 1rem;
+}
+
+.Home-four-two {
+    width: 100%;
+}
+
+.Home-ft-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.Home-ft-two {
+    width: 25%;
+    padding-top: 2rem;
+}
+
+.hm-ft-tw-in {
+    padding-top: 4rem;
+}
+
+.hm-ft-tw-in img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.Home-ft-three {
+    width: 25%;
+    padding-bottom: 10rem;
+}
+
+.hm-ft-th-in img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.Home-ft-one {
+    width: 25%;
+    padding-bottom: 4rem;
+}
+
+.hm-ft-on-in img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.Home-four-three {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-four-three button {
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    background-color: rgb(250, 147, 0);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

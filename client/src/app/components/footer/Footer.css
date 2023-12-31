@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.FooterComponent {
+    width: 100%;
+}
+
+.FooterComponent-in {
+    width: 100%;
+    background-color: rgb(177, 8, 25);
+}
+
+.Footer-one {
+    width: 100%;
+}
+
+.Footer-one-in {
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Footer-one-one {
+    color: white;
+}
+
+.Footer-one-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.Footer-one-two a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+
+.Footer-two {
+    width: 100%;
+}
+
+.Footer-two-in {
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Footer-one-on {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.Footer-two-on {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.Footer-ser {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer-two-on p{
+    padding: .5rem 0rem;
+}
+
+.Footer-two-on span {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+.Footer-one-on img {
+    height: 200px;
+    width: 200px;
+}
+
+.Footer-con {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+
+.Footer-tt-one {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.Footer-tt-one-in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: .5rem;
+}
+
+.Footer-tt-two {
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+}
+
+.Footer-three {
+    width: 100%;
+    background-color: rgb(250, 147, 0);
+}
+
+.Footer-three-one {
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+    gap: .5rem;
+}
+
+.Footer-three-one a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
