@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import './Footer.css'
 import './MobileView.css'
+import './Footer.css'
 
 // imports starts here
 import { MdCopyright } from "react-icons/md";
