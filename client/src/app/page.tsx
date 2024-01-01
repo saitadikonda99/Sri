@@ -27,6 +27,7 @@ export default function Home() {
   }
 
   useEffect(() => {
+    setLoading(true);
     someRequest().then(() => {
       setLoading(false);
     });
