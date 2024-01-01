@@ -20,7 +20,7 @@ import { PiHandsPrayingFill } from "react-icons/pi";
 
 export default function Home() {
 
-  const [isLoading, setLoading] = useState(true);
+  const [isLoading, setLoading] = useState(false);
 
   function someRequest() {
     return new Promise<void>((resolve) => setTimeout(() => resolve(), 4000));
@@ -66,7 +66,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="Hero-line">
-
+  j
                     </div>
                   </div>
               </div>
