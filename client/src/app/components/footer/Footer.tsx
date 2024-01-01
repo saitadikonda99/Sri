@@ -20,8 +20,8 @@ const Footer = () => {
                             <p>Terms & Conditions</p>
                         </div>
                         <div className="Footer-one-two">
-                            <Link href='/'>Feedback</Link>
-                            <Link href='/'>Report Errors</Link>
+                            <Link href='mailto:saitadikonda.tech@gmail.com'>Feedback</Link>
+                            <Link href='mailto:saitadikonda.tech@gmail.com'>Report Errors</Link>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ const Footer = () => {
                     <div className="Footer-two-in">
                         <div className="Footer-one-on">
                             <Image src={Om.src} alt="" width={800} height={500}/>
-                            <p>గాలాయగూడెం గ్రామం లో వెలసిన శ్రీ అచ్చమ్మపేరంటాలు తల్లి 67వ వార్షికోత్సవ ఉత్సవాలు ది 15-02-24 నుండి 25-02-24 వరకు జరుగును.</p>
+                            <p>గాలాయగూడెం గ్రామం లో వెలసిన శ్రీ అచ్చమ్మపేరంటాలు తల్లి 67వ వార్షికోత్సవ ఉత్సవాలు ది 16-02-24 నుండి 24-02-24 వరకు జరుగును.</p>
                         </div>
                         <div className="Footer-two-on">
                             <div className="Footer-ser">
@@ -64,7 +64,7 @@ const Footer = () => {
                         </div>
                         <div className="Ftt">
                             <p>Designed & Developed by</p>
-                            <Link href='/'>Tadikonda Sai Manikanta</Link>
+                            <Link href='https://www.linkedin.com/in/tadikondasaimanikanta/' passHref>Tadikonda Sai Manikanta</Link>
                         </div>
                     </div>
                 </div>

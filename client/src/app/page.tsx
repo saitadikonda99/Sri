@@ -29,7 +29,7 @@ export default function Home() {
             <div className="Home-one">
               <div className="Home-one-in">
                   <div className="Hero-head">
-                    <p>శ్రీ అచ్చమ్మపేరంటాలు తల్లి 67వ వార్షికోత్సవ ఉత్సవాలు ది 15-02-24 నుండి 25-02-24 వరకు జరుగును.</p>
+                    <p>శ్రీ అచ్చమ్మపేరంటాలు తల్లి 67వ వార్షికోత్సవ ఉత్సవాలు ది 16-02-24 నుండి 24-02-24 వరకు జరుగును.</p>
                   </div>
                   <div className="Hero-main">
                     <div className="Hero-main-in">
