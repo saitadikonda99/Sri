@@ -1,11 +1,13 @@
+"use client";
 import Image from 'next/image'
 import Link from 'next/link'
 
 import Navbar from './components/navbar/Navabar'
 import Footer from './components/footer/Footer'
 import ResNavbar from './components/navbar/ResNavbar'
+import Animation from './animation/Animation'
 
-
+import { useEffect, useState } from 'react';
 import './globals.css'
 import './MobileView.css'
 
@@ -17,6 +19,25 @@ import Om2 from './assets/Om2.png'
 import { PiHandsPrayingFill } from "react-icons/pi";
 
 export default function Home() {
+
+  const [isLoading, setLoading] = useState(true);
+
+  function someRequest() {
+    return new Promise<void>((resolve) => setTimeout(() => resolve(), 4000));
+  }
+
+  useEffect(() => {
+    someRequest().then(() => {
+      setLoading(false);
+    });
+  }, []);
+
+  if (isLoading) {
+      return (
+        <Animation/>
+      );
+  }
+
   return (
       <div className="HomeComponent">
           <div className="HomeComponent-in">
@@ -30,7 +51,7 @@ export default function Home() {
               <div className="Home-one-in">
                   <div className="Hero-head">
                     <p>శ్రీ అచ్చమ్మపేరంటాలు తల్లి 67వ వార్షికోత్సవ ఉత్సవాలు ది 16-02-24 నుండి 24-02-24 వరకు జరుగును.</p>
-                  </div>
+                  </div> 
                   <div className="Hero-main">
                     <div className="Hero-main-in">
                       <div className="Hero-mn-one">
