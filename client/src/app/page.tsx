@@ -15,6 +15,7 @@ import logo from './assets/logo.png'
 import Temple from './assets/Temple.png'
 import Wheel from './assets/Wheel.png'
 import Om2 from './assets/Om2.png'
+import Hero from './assets/Hero.png'
 
 import { PiHandsPrayingFill } from "react-icons/pi";
 
@@ -23,7 +24,7 @@ export default function Home() {
   const [isLoading, setLoading] = useState(false);
 
   function someRequest() {
-    return new Promise<void>((resolve) => setTimeout(() => resolve(), 4000));
+    return new Promise<void>((resolve) => setTimeout(() => resolve(), 10));
   }
 
   useEffect(() => {
@@ -31,7 +32,7 @@ export default function Home() {
     someRequest().then(() => {
       setLoading(false);
     });
-  }, []);
+  },[]);
 
   if (isLoading) {
       return (
@@ -56,18 +57,19 @@ export default function Home() {
                   <div className="Hero-main">
                     <div className="Hero-main-in">
                       <div className="Hero-mn-one">
-                          <div className="Hero-mn-one-in">
+                          <div className="Hero-mn-one-one">
                             <p>Welcome to our temple</p>
                             <h1>Sri Achhamma Perantalu Thalli</h1>
                             <p>Embark on a spiritual journey with our temple: a sacred space where serenity meets devotion, and timeless traditions resonate.</p>
                           </div>
+                          <div className="Hero-mn-one-two">
+                            <img src={Hero.src} alt="" />
+                          </div>
                       </div>
-                      <div className="Hero-mn-two">
 
-                      </div>
                     </div>
                     <div className="Hero-line">
-  j
+  
                     </div>
                   </div>
               </div>

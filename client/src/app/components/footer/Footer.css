@@ -56,6 +56,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .Footer-one-on {
@@ -66,31 +67,27 @@
     color: white;
 }
 
+.Footer-two-in-in {
+    width: 50%;
+    display: flex;
+}
+
 .Footer-two-on {
     width: 50%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
     color: white;
-}
-
-.Footer-ser {
-    width: 50%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    gap: 1rem;
+    padding: 0rem 4rem;
 }
 
-.Footer-two-on p{
-    padding: .5rem 0rem;
-}
-
-.Footer-two-on span {
-    font-size: 1rem;
+.ft-one-ft p {
+    font-size: 1.5rem;
     font-weight: 600;
 }
-
 
 
 .Footer-one-on img {
@@ -98,37 +95,19 @@
     width: 200px;
 }
 
-.Footer-con {
+.Footer-three-on { 
     width: 50%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    gap: .5rem;
 }
 
-
-.Footer-tt-one {
-    width: 100%;
+.ft-con-one {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: .5rem;
+    gap: 1rem;
+    color: white;
 }
 
-.Footer-tt-one-in {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: .5rem;
-}
-
-.Footer-tt-two {
-    width: 100%;
-    text-align: left;
-    font-size: 15px;
+.ft-con-two {
+    color: white;
+    padding: 1rem 0rem;
 }
 
 .Footer-three {
@@ -205,6 +184,23 @@
         gap: .5rem;
     }
 
+    .Footer-three-on { 
+        width: 100%;
+    }
+    
+    .ft-con-one {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .2rem;
+        color: white;
+    }
+    
+    .ft-con-two {
+        color: white;
+        padding: 1rem 0rem;
+    }
+
     .Footer-three-one a {
         text-decoration: none;
         font-weight: 600;
@@ -217,26 +213,37 @@
         padding: 1rem;
     }
 
-    .Footer-one-on {
-        flex-direction: column;
+    .Footer-one-on { 
         width: 100%;
+        flex-direction: column;
         text-align: center;
     }
 
-    .Footer-two-on {
+    .Footer-two-in-in {
         width: 100%;
         padding: 2rem 0rem;
     }
 
-    .Footer-tt-one-in {
+    .Footer-two-on { 
+        width: 40%;
+        justify-content: flex-start;
+        padding: 1rem 1rem;
+    }
+
+    .Footer-three-on {
+        padding: 1rem 0rem 0rem 1rem;
+        width: 60%;
+    }
+
+    .ft-one-ft p{
+        font-size: 1.2rem;
+    }
+
+    .ft-con-two p {
         font-size: .8rem;
     }
 
-    .Footer-tt-two {
-        font-size: .8rem;
-    }
-
-    .Footer-one-in {
-        width: 100%;
+    .location {
+        font-size: 1.5rem;
     }
 }

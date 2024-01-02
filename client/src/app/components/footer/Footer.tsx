@@ -31,26 +31,28 @@ const Footer = () => {
                             <Image src={Om.src} alt="" width={800} height={500}/>
                             <p>గాలాయగూడెం గ్రామం లో వెలసిన శ్రీ అచ్చమ్మపేరంటాలు తల్లి 67వ వార్షికోత్సవ ఉత్సవాలు ది 16-02-24 నుండి 24-02-24 వరకు జరుగును.</p>
                         </div>
-                        <div className="Footer-two-on">
-                            <div className="Footer-ser">
-                                <div className="Footer-ser-in">
-                                    <span>Our Services</span>
-                                    <p>Prayers</p>
-                                    <p>Puja</p>
-                                    <p>Darshanam</p>
+                        <div className="Footer-two-in-in">
+                            <div className="Footer-two-on">
+                                <div className="ft-one-ft">
+                                    <p>Our Services</p>
+                                </div>
+                                <div className="ft-two-ft">
+                                    <p>Dharshanam</p>
+                                </div>
+                                <div className="ft-three-ft">
                                     <p>Prasadam</p>
                                 </div>
+                                <div className="ft-four-ft">
+                                    <p>Puja's</p>
+                                </div>
                             </div>
-                            <div className="Footer-con">
-                                <span>Contact Us</span>
-                                <div className="Footer-tt-one">
-                                    <div className="Footer-tt-one-in">
-                                        <IoLocationOutline />
-                                        <p>Sri Achhamma Perantalu Thalli</p>
-                                    </div>
-                                    <div className="Footer-tt-two">
-                                        <p>Q4MH+PP4, Jangareddygudem Rd, Galayagudem, Challapalle, Andhra Pradesh 534450</p>
-                                    </div>
+                            <div className="Footer-three-on">
+                                <div className="ft-con-one">
+                                    <IoLocationOutline className="location" />
+                                    <p>Galayagudem, Andhra Pradesh</p>
+                                </div>
+                                <div className="ft-con-two">
+                                    <p>Q4MH+PP4, Jangareddygudem Rd, Galayagudem, Challapalle, Andhra Pradesh 534450</p>
                                 </div>
                             </div>
                         </div>

@@ -17,45 +17,42 @@
     
     .Hero-mn-one {
         width: 100%;
-        height: 100vh;
         display: block;  
     }
-
-    .Hero-mn-one-in {
-        width: 90%;
-        text-align: left;
-        padding: 1rem 0rem;
-    }
-
-    .Hero-mn-one-in  p:nth-child(1) {
-        color: rgb(250, 147, 0);
-    }
-
-    .Hero-mn-one-in p {
-        padding: .5rem
-    }
-
-    .Hero-mn-one-in h1 {
-        padding: .5rem
+    
+    .Hero-mn-one-one {
+        width: 100%;
+        padding: 1rem 1rem 1rem 1rem;
+        gap: 1rem;
     }
     
-    .Hero-mn-two {
-        display: none;
+    .Hero-mn-one-one p {
+        font-size: 1rem;
+    }
+    
+    .Hero-mn-one-one p:nth-child(1) {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    
+    .Hero-mn-one-one h1 {
+        font-size: 2rem;
+    }
+    
+    .Hero-mn-one-two {
+        width: 100%;
+    }
+    
+    .Hero-mn-one-two img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding: 1rem;
+        border-radius: 10px;
     }
 
-    .Hero-mn-one::after {
-        content: '';
-        position: absolute;
-        top: 50%;
-        right: 10%;
-        left: 5%;
-        width: 90%;
-        height: 60vh;
-        background-image: url('./assets/Hero.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+ 
+    
 
 
     .Home-two-in  {

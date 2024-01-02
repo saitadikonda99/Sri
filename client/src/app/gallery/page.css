@@ -1,0 +1,29 @@
+
+    
+    .GalleryComponent {
+        width: 100%;
+    }
+
+    .GalleryComponent-in {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .GalleryNav {
+        width: 100%;
+        background-color: rgb(177, 8, 25);
+        padding: 1rem;
+    }
+
+    .GalleryNav-in {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .G-one {
+        font-size: .5rem;
+        color: white;
+    }
+

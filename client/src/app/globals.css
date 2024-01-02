@@ -5,7 +5,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 .HomeComponent {
     width: 100%;
 }
@@ -39,53 +38,55 @@
 
 .Hero-main-in {
     width: 100%;
-    display: flex;
 }
 
 .Hero-mn-one {
-    width: 65%;
+    width: 100%;
     height: 85vh;
     background-color: rgb(177, 8, 25);
     display: flex;
+    justify-content: space-between;
 }
 
-.Hero-mn-one-in {
-    width: 80%;
-    margin: auto;
-    text-align: left;
+.Hero-mn-one-one {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem 2rem 2rem 4rem;
+    gap: 1rem;
 }
 
-.Hero-mn-one-in p {
+.Hero-mn-one-one p {
     color: white;
-    padding: 1rem;
-    width: 90%;
+    font-size: 1rem;
 }
 
-.Hero-mn-one-in h1 {
+.Hero-mn-one-one p:nth-child(1) {
+    color: rgb(250, 147, 0);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.Hero-mn-one-one h1 {
     color: white;
-    padding: .5rem;
-    font-size: 2.2rem;
+    font-size: 3rem;
 }
 
-.Hero-mn-two {
-    width: 35%;
-    height: 85vh;
-    background-color: rgb(250, 147, 0);
-}
-
-.Hero-mn-two::after {
-    content: '';
-    position: absolute;
-    top: 25%;
-    right: 10%;
+.Hero-mn-one-two {
     width: 40%;
-    height: 60vh;
-    background-image: url('./assets/Hero.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.Hero-mn-one-two img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 2rem;
+}
 
 .Hero-line {
     background-image: url('./assets/Line.png');
