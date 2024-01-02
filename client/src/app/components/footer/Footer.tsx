@@ -43,7 +43,7 @@ const Footer = () => {
                                     <p>Prasadam</p>
                                 </div>
                                 <div className="ft-four-ft">
-                                    <p>Puja's</p>
+                                    <p>Puja&apos;s</p>
                                 </div>
                             </div>
                             <div className="Footer-three-on">
