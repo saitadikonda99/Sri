@@ -24,7 +24,7 @@ export default function Home() {
   const [isLoading, setLoading] = useState(false);
 
   function someRequest() {
-    return new Promise<void>((resolve) => setTimeout(() => resolve(), 10));
+    return new Promise<void>((resolve) => setTimeout(() => resolve(), 4000));
   }
 
   useEffect(() => {
